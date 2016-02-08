@@ -21,4 +21,4 @@ Completed user stories:
 
 Walkthrough of all user stories:
 
-(https://github.com/inajnaa/tips/blob/master/dropboxDemo.gif)
+![Demo](dropboxDemo.gif)
