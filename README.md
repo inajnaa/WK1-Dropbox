@@ -20,3 +20,5 @@ Completed user stories:
 
 
 Walkthrough of all user stories:
+
+![Demmo](https://github.com/inajnaa/tips/blob/master/dropboxDemo.gif)
