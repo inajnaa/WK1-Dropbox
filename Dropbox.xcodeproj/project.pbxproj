@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89029A461C699A1800E5E46D /* FavoritedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89029A451C699A1800E5E46D /* FavoritedViewController.swift */; };
 		896EC2591C61C21900CB5B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EC2581C61C21900CB5B38 /* AppDelegate.swift */; };
 		896EC25B1C61C21900CB5B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896EC25A1C61C21900CB5B38 /* ViewController.swift */; };
 		896EC25E1C61C21900CB5B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896EC25C1C61C21900CB5B38 /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89029A451C699A1800E5E46D /* FavoritedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritedViewController.swift; sourceTree = "<group>"; };
 		896EC2551C61C21900CB5B38 /* Dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		896EC2581C61C21900CB5B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		896EC25A1C61C21900CB5B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				89A3DB5C1C66EB980050B3F2 /* NewAccountViewController.swift */,
 				89DE9B9E1C66EEB500742AED /* SignInViewController.swift */,
 				89DE9BA01C66EFCC00742AED /* SignInFieldsViewController.swift */,
+				89029A451C699A1800E5E46D /* FavoritedViewController.swift */,
 			);
 			path = Dropbox;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				89DABFD81C62AF18005C4993 /* SignInRootViewController.swift in Sources */,
 				89DABFD61C62A163005C4993 /* CreateAccountRootViewController.swift in Sources */,
 				896EC25B1C61C21900CB5B38 /* ViewController.swift in Sources */,
+				89029A461C699A1800E5E46D /* FavoritedViewController.swift in Sources */,
 				89A3DB5B1C66E55E0050B3F2 /* FileDetailViewController.swift in Sources */,
 				896EC2591C61C21900CB5B38 /* AppDelegate.swift in Sources */,
 				89A3DB5D1C66EB980050B3F2 /* NewAccountViewController.swift in Sources */,

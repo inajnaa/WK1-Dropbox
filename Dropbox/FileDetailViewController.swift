@@ -18,8 +18,16 @@ class FileDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func buttonTap(sender: UIButton) {
-        sender.selected = true
+    @IBAction func buttonTap(button: UIButton) {
+        button.selected = !button.selected
+        
+        if button.selected {
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "has_favorited")
+        } else {
+            NSUserDefaults.standardUserDefaults().setBool(false, forKey: "has_favorited")
+        }
+        
+        NSUserDefaults.standardUserDefaults().synchronize()
     }
     
     override func didReceiveMemoryWarning() {

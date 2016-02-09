@@ -17,7 +17,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        settingsScroll.contentSize = CGSize(width: 320, height: 1050)    }
+        settingsScroll.contentSize = settingsImage.image!.size    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
